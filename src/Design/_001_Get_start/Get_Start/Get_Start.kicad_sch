@@ -333,6 +333,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 12.7 12.7)
+		(end 111.76 83.82)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b8182208-c83a-4483-a67a-08fd3dd91dfa)
+	)
 	(text "Y\n- Mirror vertical"
 		(exclude_from_sim no)
 		(at 86.36 28.956 0)

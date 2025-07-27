@@ -7,6 +7,7 @@
 - Getting started
     - [Set time backup](#setup-auto-backup-time)
     - [Schematic setup before drawing](#1-before-design---setup-schematic-informations-about-title-date-paper)
+- [Project 001](../Design/_001_Get_start/Get_Start/)
 
 ## Install KiCad 9 on Ubuntu
 - Kicad default on apt only has version 6 so add link to newest version 9: 
@@ -54,4 +55,8 @@ Go to `Preferences → Preferences → Common → Project Backup`
 2. Set wire and routing
 - `W`: place wire connect components
 - `L`: place label, if they have similar name, they will be shorted
-- `P`: convenience place a label power (5V, 3v3, GND, ...) 
+- `P`: convenience place a label power (5V, 3v3, GND, ...)
+ 
+3. Draw (draw line without electricity)
+- Most of them can find at `Place` on Toolbar
+- `I`: draw a line, zigzag
