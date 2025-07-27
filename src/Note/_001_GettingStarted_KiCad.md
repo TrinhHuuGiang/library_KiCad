@@ -42,7 +42,16 @@ Go to `Preferences → Preferences → Common → Project Backup`
         - `Comment`, `Company` ...
 
 #### 2. Hotkeys combine in schematic mode
+1. Interact with component
 - `A`: Select component symbol
-- `R`: rotate component right
+- `R`: Rotate component
 - `X`: mirror component by horizontal
 - `Y`: mirror component by vertical
+- `ESC`: normal cursor mode
+- `Click + G`: grab and drag component was clicked (still drag wire is connecting)
+- `Click + M`: grab and drag only component
+
+2. Set wire and routing
+- `W`: place wire connect components
+- `L`: place label, if they have similar name, they will be shorted
+- `P`: convenience place a label power (5V, 3v3, GND, ...) 
