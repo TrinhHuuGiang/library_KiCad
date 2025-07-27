@@ -10,12 +10,10 @@
 ## Annotate a component
 ### Method 1: Annotate when design
 - Click symbol `R??>R42` on the left toolbar for turn `on/off` auto annotate
-<p align="center">
-    <img src="./rsrc/img/_002_auto_annotate.png" alt="auto annotate" width="50%" height="auto">
-</p>
+<img src="./rsrc/img/_002_auto_annotate.png" alt="auto annotate"
+     style="display: block; margin: 0 auto; width: 50%; height: auto;">
 
 ### Method 2: Annotate after design
 - Go to `Tools -> Annotate Schematic...`
-<p align="center">
-    <img src="./rsrc/img/_002_annotate_full_schematic.png" alt="annotate full schematic" width="50%" height="auto">
-</p>
+<img src="./rsrc/img/_002_annotate_full_schematic.png" alt="annotate full schematic"
+     style="display: block; margin: 0 auto; width: 50%; height: auto;">

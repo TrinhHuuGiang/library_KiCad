@@ -60,3 +60,11 @@ Go to `Preferences → Preferences → Common → Project Backup`
 3. Draw (draw line without electricity)
 - Most of them can find at `Place` on Toolbar
 - `I`: draw a line, zigzag
+
+
+4. Special connect
+- `Place Global Label` == `Ctrl + L` : any sheet exist in project have the same `Global Label` name  
+    will be connected
+- `Place Hierarchical Label` == `H` : Label using in `child` sheet in order to connect with a `Draw Hierarchical Sheets` in `parent` sheet
+- `Draw Hierarchical Sheets` == `S` : is a block draw in `parent sheet`, it check Child sheet and create a compatitive `Place Sheet Pins` with `Place Hierarchical Label` in Child sheet
+- `Place Sheet Pins` : put sheet pin into a `Draw Hierarchical Sheets`
