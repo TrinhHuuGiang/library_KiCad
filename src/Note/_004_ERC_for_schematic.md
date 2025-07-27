@@ -7,3 +7,5 @@
 ## Schematic design rule check
 
 1. Go to `File -> Schematic Setup… -> Electrical Rules -> Violation Severity.`
+2. Using `Default rule` of custom by yourself
+3. Run rule check at top Toolbar
