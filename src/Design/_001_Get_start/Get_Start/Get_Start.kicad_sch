@@ -547,22 +547,6 @@
 		)
 		(uuid "9ec89384-f25b-4c9d-807f-1fb184876b7c")
 	)
-	(rule_area
-		(polyline
-			(pts
-				(xy 246.38 43.18) (xy 215.9 43.18) (xy 215.9 62.23) (xy 223.52 69.85) (xy 243.84 69.85) (xy 251.46 62.23)
-				(xy 251.46 48.26)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 29bd16a5-9f07-4acb-91a6-596356f5b606)
-		)
-	)
 	(symbol
 		(lib_id "Device:LED")
 		(at 67.31 44.45 270)
@@ -1235,6 +1219,68 @@
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
 					(reference "SW2")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 137.16)
+		(size 49.53 33.02)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "40e9da73-9318-4acd-848a-baa96530663d")
+		(property "Sheetname" "Sheet child 1"
+			(at 36.83 136.4484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Sheet_child_1.kicad_sch"
+			(at 36.83 170.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "hierar_1" input
+			(at 86.36 143.51 0)
+			(uuid "5a400ab3-be2b-459f-b820-85d04275201b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "hierar_2" input
+			(at 74.93 170.18 270)
+			(uuid "ea59f2e5-1828-4a40-8d7d-16e9ae777d16")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "Get_Start"
+				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
+					(page "2")
 				)
 			)
 		)
