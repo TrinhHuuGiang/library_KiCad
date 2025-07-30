@@ -437,6 +437,90 @@
 		)
 		(uuid "c0052eaf-cf88-4f68-b47a-87201569492d")
 	)
+	(no_connect
+		(at 106.68 40.64)
+		(uuid "15f77e76-59a2-4114-b1b6-1468853f361c")
+	)
+	(no_connect
+		(at 67.31 48.26)
+		(uuid "16540e9f-bf76-4d57-8a68-9b85e38e92ba")
+	)
+	(no_connect
+		(at 76.2 96.52)
+		(uuid "22d5a323-6bca-4e47-be6a-772ae4f24844")
+	)
+	(no_connect
+		(at 81.28 44.45)
+		(uuid "264c19ea-c013-4ea8-911a-ca2c11448ce4")
+	)
+	(no_connect
+		(at 52.07 45.72)
+		(uuid "2a362213-3b7e-4a31-b3d8-a76746a90805")
+	)
+	(no_connect
+		(at 53.34 72.39)
+		(uuid "3a1a3863-0ff9-41e9-bcf4-9ffe03f879ee")
+	)
+	(no_connect
+		(at 67.31 40.64)
+		(uuid "491d3408-97d2-4574-83e2-baa371b56caa")
+	)
+	(no_connect
+		(at 49.53 69.85)
+		(uuid "67188df6-0b28-4704-a670-4cd0c02b3342")
+	)
+	(no_connect
+		(at 114.3 40.64)
+		(uuid "760f99d6-ee82-446d-8606-532095742eaf")
+	)
+	(no_connect
+		(at 44.45 45.72)
+		(uuid "80b4d57f-e460-411d-b820-1ce6e80a96af")
+	)
+	(no_connect
+		(at 41.91 69.85)
+		(uuid "8c9a174f-6c9a-495a-b773-2a93fe00bdd7")
+	)
+	(no_connect
+		(at 88.9 44.45)
+		(uuid "92194106-2996-46d3-a579-d722cd2ee142")
+	)
+	(no_connect
+		(at 46.99 88.9)
+		(uuid "a9c0959b-7dcb-4789-b393-b05fb3363700")
+	)
+	(no_connect
+		(at 76.2 81.28)
+		(uuid "b0803a74-5d5c-4b80-81bb-2d27129af83e")
+	)
+	(no_connect
+		(at 92.71 143.51)
+		(uuid "b9289d0e-4479-4f68-a01a-2bcc5086ef09")
+	)
+	(no_connect
+		(at 74.93 176.53)
+		(uuid "c06522f4-7232-4a25-b7e4-17b978e87c18")
+	)
+	(wire
+		(pts
+			(xy 165.1 50.8) (xy 168.91 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10b636a1-08eb-4430-8ec7-b417d6b58c00")
+	)
+	(wire
+		(pts
+			(xy 74.93 170.18) (xy 74.93 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "210b85c3-0182-406e-a51b-20972e1369a3")
+	)
 	(wire
 		(pts
 			(xy 104.14 93.98) (xy 133.35 93.98)
@@ -469,6 +553,16 @@
 	)
 	(wire
 		(pts
+			(xy 176.53 50.8) (xy 179.07 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72a321fe-c7af-4aef-bdda-f34ac50c7454")
+	)
+	(wire
+		(pts
 			(xy 133.35 93.98) (xy 133.35 72.39)
 		)
 		(stroke
@@ -476,6 +570,16 @@
 			(type default)
 		)
 		(uuid "787fba33-db27-4155-8ac4-025f4c111b38")
+	)
+	(wire
+		(pts
+			(xy 86.36 143.51) (xy 92.71 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bf3e3ec-8d40-47bf-af99-a468072e24fa")
 	)
 	(wire
 		(pts
@@ -527,6 +631,36 @@
 		)
 		(uuid "eb90c412-4806-472c-817a-cb3e656f3937")
 	)
+	(label "null2"
+		(at 76.2 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "155698a4-be06-4454-afc9-ce93f823e379")
+	)
+	(label "null"
+		(at 179.07 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "606e373e-f01b-4aa5-8d25-adf8421fd856")
+	)
+	(label "null"
+		(at 57.15 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8f05db69-06a8-4780-83bd-d3705a95aa7c")
+	)
 	(label "label_A"
 		(at 104.14 72.39 0)
 		(effects
@@ -547,6 +681,16 @@
 		)
 		(uuid "9ec89384-f25b-4c9d-807f-1fb184876b7c")
 	)
+	(label "null2"
+		(at 165.1 50.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d3f51e8e-054b-41c0-825b-a5bf340ced1c")
+	)
 	(symbol
 		(lib_id "Device:LED")
 		(at 67.31 44.45 270)
@@ -556,7 +700,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "04be2200-7397-4039-a928-0228b4398d05")
-		(property "Reference" "D3"
+		(property "Reference" "D2"
 			(at 63.5 41.5924 90)
 			(effects
 				(font
@@ -619,7 +763,7 @@
 		(instances
 			(project ""
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D3")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -635,7 +779,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "181886c9-9ae9-444f-80b2-4a39676f34f7")
-		(property "Reference" "D4"
+		(property "Reference" "D3"
 			(at 86.6775 38.1 0)
 			(effects
 				(font
@@ -696,7 +840,7 @@
 		(instances
 			(project ""
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D4")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -710,9 +854,8 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "2565957f-8e18-4303-8bb3-d292e9549480")
-		(property "Reference" "D8"
+		(property "Reference" "D7"
 			(at 49.2125 82.55 0)
 			(effects
 				(font
@@ -773,7 +916,7 @@
 		(instances
 			(project ""
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D8")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -789,7 +932,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2bc4d530-7615-4674-aa83-60e3380ba63f")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 108.9025 46.99 0)
 			(effects
 				(font
@@ -850,7 +993,7 @@
 		(instances
 			(project "Get_Start"
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -866,7 +1009,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d4fa94f-283a-4b7c-9f7d-aeff0923c670")
-		(property "Reference" "D7"
+		(property "Reference" "D6"
 			(at 44.1325 63.5 0)
 			(effects
 				(font
@@ -927,7 +1070,84 @@
 		(instances
 			(project ""
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D7")
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 172.72 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40c7d758-3c5d-4d08-a8b3-d2a17aaa9e47")
+		(property "Reference" "D5"
+			(at 171.1325 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 171.1325 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 172.72 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7130b38e-102b-46fe-b7d8-0fee42b90588")
+		)
+		(pin "1"
+			(uuid "23e0af75-c337-4c2d-a4e9-14d0678b7111")
+		)
+		(instances
+			(project ""
+				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -943,7 +1163,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c71da83-20f7-4e38-b583-2068e2771018")
-		(property "Reference" "D5"
+		(property "Reference" "D4"
 			(at 46.6725 39.37 0)
 			(effects
 				(font
@@ -1004,7 +1224,7 @@
 		(instances
 			(project ""
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D5")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -1020,7 +1240,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7566560-210c-4e31-9448-42c6fa059f59")
-		(property "Reference" "SW3"
+		(property "Reference" "SW1"
 			(at 121.92 66.04 0)
 			(effects
 				(font
@@ -1072,152 +1292,7 @@
 		(instances
 			(project ""
 				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "SW3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 181.61 67.31 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4d2a780-8400-47e1-8a29-fab6c411ca54")
-		(property "Reference" "D6"
-			(at 180.0225 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LED"
-			(at 180.0225 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 181.61 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 181.61 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a4f6b7c-ec1d-45c1-99dd-778fccbe732a")
-		)
-		(pin "2"
-			(uuid "67d815fe-bfe9-4437-af51-db1acda7c173")
-		)
-		(instances
-			(project ""
-				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 181.61 50.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ce3a5793-6377-4dfc-bbb4-b38f818ccdcf")
-		(property "Reference" "SW2"
-			(at 181.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 181.61 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 181.61 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "553dce27-f68f-45e4-af26-31244c6265b8")
-		)
-		(pin "2"
-			(uuid "23517fc8-fa70-40ce-8f85-4c1a5762c303")
-		)
-		(instances
-			(project ""
-				(path "/3c26b505-18dc-433f-8569-20dcedbd6448"
-					(reference "SW2")
+					(reference "SW1")
 					(unit 1)
 				)
 			)
@@ -1257,7 +1332,7 @@
 				(justify left top)
 			)
 		)
-		(pin "hierar_1" input
+		(pin "hierar_1" output
 			(at 86.36 143.51 0)
 			(uuid "5a400ab3-be2b-459f-b820-85d04275201b")
 			(effects
@@ -1267,7 +1342,7 @@
 				(justify right)
 			)
 		)
-		(pin "hierar_2" input
+		(pin "hierar_2" output
 			(at 74.93 170.18 270)
 			(uuid "ea59f2e5-1828-4a40-8d7d-16e9ae777d16")
 			(effects
