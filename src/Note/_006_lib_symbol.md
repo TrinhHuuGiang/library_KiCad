@@ -21,7 +21,7 @@
         - passive, free, unspecified, powerinput, power output, 
         - open colector, open emitter, unconnected
     - Tips: After create a pin, push on `Insert` button on keyboard then a new pin will create and auto numbering
-- More configure properties: `File -> Symbol Properties`
+- More configure properties: `File -> Symbol Properties` or just click label on top toolsbar
     - Here we can modify, hide/show some field like:
         - Reference: Symbol for descripte type of component
         - Value: ...C, ...H, ...uF,...
