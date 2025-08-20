@@ -1,0 +1,161 @@
+(footprint "Button 4 pin"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "A simple button has 4 pin")
+	(property "Reference" "REF**"
+		(at 10.16 6.398 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a5573d2e-d27f-43b7-b2d4-24ec2be10f59")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Val**"
+		(at -5.588 -8.128 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3da6f303-ad66-40b5-83ab-59e0a9e69ef8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4cc9aa3b-551a-4df8-815e-6e4e1f55e262")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a8bc693-fb2f-49ae-8bc9-a0b5a385cadb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start 0 0)
+		(end 25.4 25.4)
+		(stroke
+			(width 0.508)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "b82cb178-5efa-418b-9a6d-3612bbd8998c")
+	)
+	(fp_rect
+		(start 2.54 1.524)
+		(end 17.78 17.272)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "814802b1-0b24-45ba-8fff-a2525852fac7")
+	)
+	(fp_rect
+		(start -0.254 -0.254)
+		(end 25.654 25.654)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "196ea6c7-327a-48d4-8777-54382c2e3fe7")
+	)
+	(fp_text user "This a simple button"
+		(at 2.032 20.32 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ec4f6217-367a-4e05-968f-1b40f0f70282")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 10.16 9.398 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "8cf9a9f2-af2d-4bfe-917b-8d6b3ca91eba")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 7.62 3.048)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1f458074-dc88-4887-990e-45d82752dee6")
+	)
+	(pad "2" thru_hole circle
+		(at 7.62 15.24)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "88bb1bfc-de40-4399-a9d4-70290cb4491f")
+	)
+	(pad "3" thru_hole circle
+		(at 12.7 3.048)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "e29c193f-b487-4177-b681-8367775d2fb3")
+	)
+	(pad "4" thru_hole circle
+		(at 12.7 15.24)
+		(size 2.032 2.032)
+		(drill 1.016)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "bf434b11-ec1c-472a-911f-e7cb701ce03c")
+	)
+	(embedded_fonts no)
+	(model "/home/giangtrinh/Altium_backup/recover_chosen/test/Dev_board_esp32_smart_home/step3d/Button 4 pins assembly.STEP"
+		(offset
+			(xyz 5.08 -0 -3.81)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -14,4 +14,7 @@
     - Component type: is optional, 3 option `through hole` `SMD` `unspecified`
 - We can change view from `mm` to `mil` or opposite by the left toolbar
 - At the top tool bar, we still see a option setup `pad/through hole` named `Default pad properties`
+- Footprint checker at top toolbar
 
+### Add 3d view:
+- In `Footprint Properties` in the top toolbar, click on tab `3D Models` then add list 3D expect implement on footprint design.

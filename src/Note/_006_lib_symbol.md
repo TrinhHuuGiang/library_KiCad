@@ -28,3 +28,4 @@
         - Footprint: Add designed footprint
         - Datasheet: Add datasheet
         - Description: Detailed description
+- Check symbol at the top toolbar
