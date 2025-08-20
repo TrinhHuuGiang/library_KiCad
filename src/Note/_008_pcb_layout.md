@@ -61,3 +61,6 @@
     - Hole to hole clearance `>= 0.3 mm` == `12 mil`
     - Copper to hole clearance `>= 0.3mm` == `12 mil`
     - Note: Via size larger `Factory` sometime equal with a standard through hole
+
+##### 2. Set violation severity
+- Keep default or modify 3 level: Error, warning, Ignore

@@ -133,7 +133,7 @@
 	(footprint "Simple_test_library:First component"
 		(layer "F.Cu")
 		(uuid "226dbef2-c364-49ea-bc72-d11e66d16727")
-		(at 76.13 63.66)
+		(at 165.1 114.3)
 		(descr "Test component")
 		(property "Reference" "SW2"
 			(at -3.508 -17.756 0)
@@ -333,6 +333,17 @@
 			(uuid "bc53fd01-9771-4649-9ed5-3f4ca6b48c4c")
 		)
 		(embedded_fonts no)
+	)
+	(gr_rect
+		(start 101.6 76.2)
+		(end 228.6 152.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "e56af1df-b05a-451a-a9d0-de35d86357c7")
 	)
 	(embedded_fonts no)
 )
